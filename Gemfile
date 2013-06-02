@@ -39,3 +39,6 @@ gem 'activeadmin'
 gem 'coffee-script'
 gem 'simple_form'
 gem 'country_select'
+
+gem 'ckeditor_rails'
+gem "ckeditor"

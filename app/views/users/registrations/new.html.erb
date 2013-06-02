@@ -1,0 +1,49 @@
+<h2>Sign up</h2>
+
+
+<%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+	  <div class="row">
+	    <div class="span5">
+			<%= f.input :email, :required => true, :autofocus => true %>
+			<%= f.input :password, :required => true %>
+			<%= f.input :password_confirmation, :required => true %>
+			<%= f.input :firstname%>    
+			<%= f.input :middlename%>
+			<%= f.input :lastname%>
+			<%= f.input :gender%>
+			<%= f.input :mobileno%>
+			<%= f.input :occupation%>
+		</div>
+
+		<div class="span7">
+			<%= f.input :dob, as: :date, start_year: Date.today.year - 90 %>
+			<%= f.input :address , :class => 'ckeditor'%>
+			<%= f.input :city%>
+			<%= f.input :state ,collection: [:AndhraPradesh, :ArunachalPradesh, :Assam, :Bihar, :Chhattisgarh, :Goa, :Gujarat, :Haryana, :HimachalPradesh, :JammuandKashmir, :Jharkhand, :Karnataka, :Kerala, :MadhyaPradesh, :Maharashtra, :Manipur, :Meghalaya, :Mizoram, :Nagaland, :Punjab, :Rajasthan, :Sikkim, :TamilNadu, :Tripura, :UttarPradesh, :Uttarakhand, :WestBengal, :AndamanandNicobarIslands, :Chandigarh, :DadraandNagarHaveli, :Lakshadweep,  :Puducherry, :NewDelhi]%>
+			<%= f.input :country ,priority: [ "India" ]%>
+			<%= f.input :mj_id%>
+			<%= f.input :reqstatus%>
+			<%= f.input :visited%>
+			<%= f.input :payment %>
+			 <%= f.input :due%>
+			<%= f.input :family_count%>
+		</div>
+
+
+
+
+
+
+
+	</div>
+  </div>	
+  
+  <div class="form-actions">
+    <%= f.button :submit, "Sign up" %>
+  </div>
+<% end %>
+
+<%= render "users/shared/links" %>

@@ -16,7 +16,9 @@ MjLatest::Application.routes.draw do
   resources :relations
 
 
-  
+  get 'site/team'
+  match 'team' => 'site#team'
+
 
   get "site/festivals"
   match 'festivals' => 'site#festivals'
@@ -52,6 +54,7 @@ match 'rajasthan' => 'site#rajasthan'
 
   devise_for :users
   ActiveAdmin.routes(self)
+  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

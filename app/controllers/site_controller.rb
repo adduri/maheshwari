@@ -20,5 +20,7 @@ class SiteController < ApplicationController
 
   def rajasthan
   end
-
+  
+  def team
+  end
 end

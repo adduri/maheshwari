@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130601225123) do
+ActiveRecord::Schema.define(:version => 20130602105822) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -69,6 +69,22 @@ ActiveRecord::Schema.define(:version => 20130601225123) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at",                             :null => false
     t.datetime "updated_at",                             :null => false
+    t.string   "company_name"
+    t.string   "contact_person1_name"
+    t.string   "contact_person1_mobile"
+    t.string   "contact_person2_name"
+    t.string   "contact_person2_mobile"
+    t.string   "house_number"
+    t.string   "street"
+    t.string   "area"
+    t.string   "city"
+    t.string   "state"
+    t.string   "country"
+    t.text     "product_dealt"
+    t.string   "tin_no"
+    t.string   "website"
+    t.string   "tel_no1"
+    t.string   "tel_no2"
   end
 
   add_index "advertisers", ["email"], :name => "index_advertisers_on_email", :unique => true
@@ -125,6 +141,23 @@ ActiveRecord::Schema.define(:version => 20130601225123) do
     t.string   "photo_content_type"
     t.integer  "photo_file_size"
     t.datetime "photo_updated_at"
+    t.string   "firstname"
+    t.string   "middlename"
+    t.string   "lastname"
+    t.string   "gender"
+    t.date     "dob"
+    t.string   "mobileno"
+    t.string   "occupation"
+    t.text     "address"
+    t.string   "city"
+    t.string   "mj_id"
+    t.boolean  "reqstatus"
+    t.boolean  "visited"
+    t.float    "payment"
+    t.float    "due"
+    t.integer  "family_count"
+    t.string   "country"
+    t.string   "state"
   end
 
   add_index "users", ["email"], :name => "index_users_on_email", :unique => true
