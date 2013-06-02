@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  family_member_user_id: 1
+  relationship: MyString
+  join_pending: false
+  payment_status: false
+  relation_id: 1
+  deactivate: false
+
+two:
+  user_id: 1
+  family_member_user_id: 1
+  relationship: MyString
+  join_pending: false
+  payment_status: false
+  relation_id: 1
+  deactivate: false

@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User:</b>
+  <%= @family_member.user_id %>
+</p>
+
+<p>
+  <b>Family member user:</b>
+  <%= @family_member.family_member_user_id %>
+</p>
+
+<p>
+  <b>Relationship:</b>
+  <%= @family_member.relationship %>
+</p>
+
+<p>
+  <b>Join pending:</b>
+  <%= @family_member.join_pending %>
+</p>
+
+<p>
+  <b>Payment status:</b>
+  <%= @family_member.payment_status %>
+</p>
+
+<p>
+  <b>Relation:</b>
+  <%= @family_member.relation_id %>
+</p>
+
+<p>
+  <b>Deactivate:</b>
+  <%= @family_member.deactivate %>
+</p>
+
+
+<%= link_to 'Edit', edit_family_member_path(@family_member) %> |
+<%= link_to 'Back', family_members_path %>

@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Relationship:</b>
+  <%= @relation.relationship %>
+</p>
+
+<p>
+  <b>Priority:</b>
+  <%= @relation.priority %>
+</p>
+
+
+<%= link_to 'Edit', edit_relation_path(@relation) %> |
+<%= link_to 'Back', relations_path %>
