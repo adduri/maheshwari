@@ -2,8 +2,14 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
 
+gem :developement do
+	gem 'sqlite3'
+end
+
+group :production do
 #PostgreSql
-gem 'pg'
+	gem 'pg'
+end
   
 # Gems used only for assets and not required
 # in production environments by default.
