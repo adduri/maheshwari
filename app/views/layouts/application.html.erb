@@ -33,45 +33,164 @@
     <!-- For all other devices -->
     <!-- Size should be 32 x 32 pixels -->
     <%= favicon_link_tag '/assets/mj_favicon.png', :rel => 'shortcut icon' %>
+    <link rel="stylesheet" type="text/css" href="/assets/jquery.gridster.css">
+    <link rel="stylesheet" type="text/css" href="/assets/styles.css">
+     <script type="text/javascript" src="/assets/jquery.js"></script>
+    <script type="text/javascript" src=" /assets/jquery.gridster.js" charster="utf-8"></script>
+    <script type="text/javascript">
+  
+    </script>
  
 <style>
 
  
- 
-   
-</style>
 
  
  
-    </style>
+ html {
+  position: relative;
+  min-height: 100%;
+}
+#content {
+  padding-bottom: 30px;
+}
+#footer .navbar{
+  position: absolute;
+ }
+#footer {background-color:#f3f3f3}
+
+
+#bottom_strip{background:#fff; height:31px; width: 100%; }
+#bottom_strip .inner_wrap div{position:absolute; right:0px;}
+#bottom_strip .inner_wrap div a{ float:right; color:#000000; line-height:15px; display:block; margin-left:10px; text-decoration:none;
+font-size:13px;
+}
+#bottom_strip .inner_wrap span{position:absolute; left:0px; font-size:13px; color:#000000; line-height:30px; }
+.inner_wrap{width:1535px; margin: 0px auto; position:relative !important;padding-top: 8px;}
+ 
+#slider{color:#000000;}
+      </style>
+     <link href="themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="themes/1/js-image-slider.js" type="text/javascript"></script>
+    <link href="generic.css" rel="stylesheet" type="text/css" />
     </head>
-    <body>
- <div class="row">
+    <body>        
+<div class="row">
+
   <div class="navbar-inner">
     <div class="container">
-     <div class="span3">
-      <a class="brand" href="/">
-        <img src="/assets/logo.png" style="height:80px;" id="logo"/></a> 
-     </div><!--span3-->
-     <div  class="span2" id="topContact" style="padding-left:20px">
-      <a href="#" class="phone">+91 90300 27648/649</a>
-      <a href="mailto:maheshwari.jagruth@gmail.com" class="contact">maheshwari.jagruth@gmail.com</a>
-     </div><!--span2-->
+      <div id="s" style="padding-left:790px">
+   
 
-      <div class="span3" style="padding-top:45px">
-      </div><!--span3-->
+ <button class="btn btn-info" onclick="window.location.href='/users/sign_up'"> Registartion</button>&nbsp; &nbsp; 
+       <button class="btn btn-info" onclick="window.location.href='/sessions/new'">Log In</button>
+
+
+     </div>
+
+     <div class="span2">
+<img src="/assets/beta.png" height="79" width="52">
+      <a class="brand" href="/"><img src="/assets/logo.png" style="height:80px;" id="logo"/></a> 
+     </div><!--span2-->
+        <div class= "span3">
+   &nbsp;&nbsp;&nbsp;       
+<div class="input-prepend" style="padding-top: 28px; padding-left: 10px;">
+
+            <div class="btn-group" style="">
+              <button class="btn dropdown-toggle" data-toggle="dropdown">Search For
+               <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a href="/events">Events</a></li>
+                <li><a href="/search">Search</a></li>
+              </ul>
+            </div><!--btn-group-->
+              <input class="span4" id="prependedDropdownButton" type="text">
+          </div><!--input-prepend--></ul>
+</div><!--container nav-collapse-->
+  
+      <div  class="span2" id="topContact" style="padding-left: 100px;padding-top:35px">
+      <a href="mailto:maheshwari.jagruth@gmail.com" class="contact" style="float: right; padding-left:-50px;">maheshwari.jagruth@gmail.com</a>
+ 
+      
+  
+  
+     </div><!--span2-->      
 
     </div> <!--container-->   
       <hr>
   </div><!--navbar-inner-->
 </div><!--row-->
 
-<div class="container nav-collapse">
+<div class="container nav-collapse" >
 <ul class="nav nav-pills">
   <li><a href="/">Home &nbsp;&nbsp;</a></li> 
   <li><a href="/events">Events &nbsp;&nbsp;</a></li>  
-  <li><a href="/advertisements">Partners &nbsp;&nbsp;</a></li> 
-  <li><a href="/registration">Registration &nbsp;&nbsp;</a></li> 
+  <!-- <li><a href="/advertisements">Partners &nbsp;&nbsp;</a></li> 
+  <li><a href="/registration">Registration &nbsp;&nbsp;</a></li>  -->
+
+  <li class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" href="#">States<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <table class="table table-hover" cellpadding="10">
+            <tr>
+              <td>
+           <li><a href="/aboutus">AndraPradesh</a></li>
+           <li><a href="../../history.pdf" target="_blank">ArunachalPradesh</a></li>
+           <li><a href="../../festivals.pdf" target="_blank">Assam</a></li>
+              <li><a href="../../maheshwari.png" target="_blank">Bihar</a></li>
+              </td>
+              <td>
+             
+           <li><a href="/rajasthan">Chhattisgarh </a></li>
+            <li><a href="/aboutus">Delhi</a></li>
+              <li><a href="/aboutus">Goa</a></li>
+           <li><a href="../../history.pdf" target="_blank">Gujarat</a></li>
+              </td>
+              <td>
+            <li><a href="../../festivals.pdf" target="_blank">Haryana</a></li>
+           <li><a href="../../maheshwari.png" target="_blank">HimachalPradesh</a></li>
+           <li><a href="/rajasthan">Jammu&Kashmir</a></li>
+            <li><a href="/aboutus">Jharkhand</a></li>
+         
+              </td>
+              <td>
+                   
+           <li><a href="../../history.pdf" target="_blank">Karnataka</a></li>
+           <li><a href="../../festivals.pdf" target="_blank">Kerala</a></li>
+           <li><a href="../../maheshwari.png" target="_blank">MadyaPradesh</a></li>
+           <li><a href="/rajasthan">Maharashtra</a></li>
+           
+              </td>
+              <td>
+                 <li><a href="/aboutus">Manipur</a></li>
+           <li><a href="../../history.pdf" target="_blank">Meghalaya</a></li>
+           <li><a href="../../festivals.pdf" target="_blank">Mizoram</a></li>
+           <li><a href="../../maheshwari.png" target="_blank">Nagaland</a></li>
+           
+              </td>
+              <td>
+            <li><a href="/rajasthan">Orissa</a></li>
+           <li><a href="/rajasthan">Punjab</a></li>
+            <li><a href="/aboutus">Rajasthan</a></li>
+           <li><a href="../../history.pdf" target="_blank">Sikkim</a></li>
+      
+              </td>
+              <td>
+                 <li><a href="../../festivals.pdf" target="_blank">TamilNadu</a></li>
+           <li><a href="../../maheshwari.png" target="_blank">Tripura</a></li>
+           <li><a href="/rajasthan">Uttaranchal</a></li>
+           <li><a href="../../history.pdf" target="_blank">UttaPradesh</a></li>
+        
+              </td>
+              <td>
+              <li><a href="../../festivals.pdf" target="_blank">WestBengal</a></li>
+           <li><a href="/rajasthan">Uttaranchal</a></li>
+              </td>
+            </tr>
+          </table>
+        </ul>
+  </li>
   <li class="dropdown">
     <a class="dropdown-toggle"data-toggle="dropdown"href="#">About Us<b class="caret"></b></a>
     
@@ -81,32 +200,20 @@
            <li><a href="../../festivals.pdf" target="_blank">Festivals</a></li>      
            <li><a href="../../maheshwari.png" target="_blank">Vanshothpatti</a></li>
            <li><a href="/rajasthan">Hamaro Rajasthan</a></li>
-           <li><a href="/team">Team</a></li>
+
         </ul>
   </li>
-          &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
 
-          <div class="input-prepend" style=" ">
-            <div class="btn-group" style="">
-              <button class="btn dropdown-toggle" data-toggle="dropdown">Search For
-               <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu">
-                <li><a href="/events"> Member</a></li>
-                <li><a href="/search"> Products</a></li>
-              </ul>
-            </div><!--btn-group-->
-              <input class="span4" id="prependedDropdownButton" type="text">
-          </div><!--input-prepend--></ul>
+        
 </div><!--container nav-collapse-->
-  
+   
  
 <div class="container" >
   <div id="example" class="modal hide fade in" >
     <div class="modal-header">
     <a class="close" data-dismiss="modal">×</a><h3>Family Tree</h3>
     </div>
-    <div class="modal-body"><img src="/assets/rails.png"/>
+    <div class="modal-body"><img src="/assets/d.png"/>
     </div>
 
     <div class="modal-footer">
@@ -125,54 +232,61 @@
   </div><!--/row-->
 </div> <!-- /container -->
 
-
- <div id="footer" > 
- <!--   <div class="span12" style="padding-top:6px">     --> 
-  <div class="span5">
-    <div id="myCarousel" class="carousel slide" style="padding:20px;margin-left:50px">  
-    <!-- Carousel items -->  
-    <div class="carousel-inner" >  
-        <div class="active item">
-          <img src="/assets/slider/boiler_tubes.jpg">
-        </div>  
-        <div class="item">
-          <img src="/assets/slider/cr_tubes.jpg">
-        </div>  
-        <div class="item">
-        <img src="/assets/slider/ductile_iron_pipes.jpg">
-        </div>  
-        <div class="item">
-          <img src="/assets/slider/seamless_tubes.jpg">
-        </div>
-
-        <div class="item">
-          <img src="/assets/slider/square_rectangular_hollow_section.jpg">
-        </div> 
-    
-    </div>  
-    <!-- Carousel nav -->  
-   </div>  
-   
-      
-  </div>
-
-  <!--span5-->
-
-
-  <div class="span4"> 
-   <p style="font-size:15px;
-    padding:13px;
-    font-style:times;color:gray">   
-    Maheswhari Jagruth intents to bring in its community a kind of awareness through which the members are benefited.Maheswhari intents to bring in its community a kind of awareness through which the members are benefited  </p>
-  </div><!--span4-->
-
-  <div class="span3" style="padding-top:29px;padding-left:26px"> 
-    <img src="/assets/salasar.jpg" /> 
-  </div><!--span3-->
-</div><!--footer-->
  
 
- <!--bottom strip start-->
+
+<div class="navbar navbar-inverse navbar-fixed-bottom" style="color:white" >
+<div id="footer" height="83px;"  style="color:blue"> 
+  <div class="row">
+    <div class="span4" style="padding-top:0px;">
+      <a href="http://www.salasarindia.com/" target =_blank> 
+      <div id="sliderFrame" style="padding-right:180px">
+        <div id="ribbon"></div><!--ribbon-->
+        <div id="slider">
+          <img  src="/assets/s/5.jpg" height="14" width="10" />
+          <img style="max-width:95%;border:6px double #545565;" src="/assets/s/1.jpg"/>
+          <img src="/assets/s/2.jpg" />
+          <img src="/assets/s/3.jpg"    />
+          <img  src="/assets/s/4.jpg"  />
+        </div><!--slider-->
+        <div id="htmlcaption" style="display: none;">
+        </div><!--htmlcaption--> 
+
+      </div><!--slid frame-->
+      </a>
+    </div> <!--span4-->
+  <div class="span6" style="color:#000000;padding-top:1px;">
+        <p style="padding-right:4px; "><center><strong><h4 style="font-family: italic" >"SALASAR"</a><sub>The House Of Steel Pipes </sub></h4> </center></strong> 
+
+
+<!--
+        
+<a href="mailto:maheshwari.jagruth@gmail.com" class="contact" style="float: right; padding-left:-50px;">maheshwari.jagruth@gmail.com</a>  
+webiste :-
+<a href="www.salasarindia.com"> https://www.salasarindia.com </a>  Contact :- +91 90 300 27631 (TO) 635</marquee></p>
+ -->
+  
+<marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="5"> 
+ERW MS Pipes, GI Pipes,Seamless Tubes, Boiler Tubes, Square & Rectagular Hollow Sections and
+        Large Dia Pipes<br>
+
+ Website: &nbsp;<a href="http://www.salasarindia.com/"target =_blank>www.salasarindia.com</a>&nbsp;
+ Mail Id: 
+ <a href="mailto:info@salasarindia.com"> info@salasarindia.com&nbsp;</a> <!--class="contact"-->
+ Contact: +91 90 300 27631 (TO) 635
+
+
+</marquee>
+
+  </div><!--span6-->
+ 
+    <div class="span2" style="padding-top:23px;padding-left:273px"> 
+<a href="http://www.salasarindia.com/" target =_blank> 
+    <img border="4" src="/assets/salasar.jpg" /> </a>
+    </div><!--span3-->
+    
+
+</div><!--row--><!--bottom strip start-->
  <div id="bottom_strip">
   <div class="inner_wrap">
     <span>@ MJ. All rights reserved</span>
@@ -184,12 +298,26 @@
   </div>
  </div>
    <!--bottom strip End-->
-
-
+</div><!--footer-->
  
+</div><!--fixed-bottom-->
+ 
+
+  
+ 
+
+
     <!-- Javascripts
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <%= javascript_include_tag "application" %>
+    </div>
     </body>
+ 
+
 </html>
+
+
+<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br>

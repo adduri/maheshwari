@@ -1,11 +1,20 @@
-<%= simple_form_for(@advertisement) do |f| %>
-  <%= f.error_notification %>
-
-  <div class="form-inputs">
-    <%= f.input :title %>
+<%= form_for @advertisement, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :title, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :title, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+     <div style="margin-left:130px">  
+      <%= f.label :ad, "Photo" %>  
+      <%= f.file_field :ad %>  
+    </div>  
   </div>
 
   <div class="form-actions">
-    <%= f.button :submit %>
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                advertisements_path, :class => 'btn' %>
   </div>
 <% end %>

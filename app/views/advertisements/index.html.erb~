@@ -1,0 +1,386 @@
+
+
+
+    <html>
+ 
+ 
+
+
+  <head>
+    <meta content="gyurisc" name="author"></meta>
+    <link href="assets/css/jquery.gridster.css" type="text/css" rel="stylesheet"></link>
+    <link href="assets/css/styles.css" type="text/css" rel="stylesheet"></link>
+    <style type="text/css">
+[data-col="7"] { left:970px;} 
+[data-col="6"] { left:810px;} 
+[data-col="5"] { left:650px;} 
+[data-col="4"]{ left:490px;} 
+[data-col="3"]{ left:330px;} 
+[data-col="2"] { left:170px;} 
+[data-col="1"]{ left:10px;}  
+
+[data-row="16"] { top:2410px;}
+[data-row="15"] { top:2250px;} 
+[data-row="14"] { top:2090px;} 
+[data-row="13"] { top:1930px;} 
+[data-row="12"]{ top:1770px;} 
+[data-row="11"]{ top:1610px;} 
+[data-row="10"]{ top:1450px;} 
+[data-row="9"]{ top:1290px;}  
+[data-row="8"]{ top:1130px;}  
+[data-row="7"] { top:970px;}  
+[data-row="6"] { top:810px;}  
+[data-row="5"]{ top:650px;}  
+[data-row="4"] { top:490px;} 
+[data-row="3"] { top:330px;} 
+[data-row="2"] { top:170px;} 
+[data-row="1"] { top:10px;} 
+
+[data-sizey="1"] { height:140px;}
+[data-sizey="2"]{ height:300px;} 
+[data-sizey="3"]{ height:460px;} 
+[data-sizey="4"] { height:620px;} 
+[data-sizey="5"]{ height:780px;} 
+[data-sizey="6"] { height:940px;} 
+[data-sizey="7"]{ height:1100px;} 
+[data-sizey="8"] { height:1260px;}
+[data-sizey="9"] { height:1420px;} 
+[data-sizey="10"] { height:1580px;} 
+[data-sizey="11"]{ height:1740px;} 
+[data-sizey="12"]{ height:1900px;} 
+[data-sizey="13"]{ height:2060px;} 
+[data-sizey="14"]{ height:2220px;} 
+[data-sizey="15"]{ height:2380px;} 
+
+[data-sizex="1"] { width:140px;}
+[data-sizex="2"] { width:300px;} 
+[data-sizex="3"]{ width:460px;}
+[data-sizex="4"]{ width:620px;} 
+[data-sizex="5"]{ width:780px;} 
+[data-sizex="6"]{ width:940px;}
+   
+    </style>
+  </head>
+  <body>
+    <section class="demo">
+      <div class="gridster ready">
+        <ul style="height: 480px; position: relative;" padding-left: "20px;">
+          <li class = "gs_w dragging player" data-sizey="1" data-sizex="1" data-col="1" data-row="1" style="position: absoulte;  ">
+            <img height="140px;" width= "140px;"src="http://www.seeklogo.com/images/M/Muni_Seva_Ashram-logo-BE23446277-seeklogo.com.gif">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="2" data-col="2" data-row="1" style="position: absolute;">
+             
+                <img  height="140px;" width= "300px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqRiKOinGuG8AJLK4npcGs4T91oWm-812BHs0LMy9Xi-PBPBXQ">          
+              
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="2" data-col="2" data-row="2">
+                 <img height="300px;" width= "300px;"  src="http://new.kirkstall.org.uk/wp-content/uploads/2013/05/2679-FB-Kirkstall-BLS-ad-300x300px-080513-Hyperlink-Logo-1024x1024.jpg">
+
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRP6ko2h0RXDRvlzMsOyTOxhgVx7azJcVt9hmDctF9spAlGY6z7tg">
+            </li><li class="gs_w" data-sizey="1" data-sizex="2" data-col="4" data-row="2">
+            <img height="140px;" width= "300px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY-Lez_YfbopvAObjSqBzO6vtyuVOl9_yuGKzN0Uhz6GBJeNCo8Q">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="3">
+               <img height="140px;" width= "140px;"src="http://gi24.photobucket.com/groups/c49/S9SZK7BI1U/solid-icon140px-1.png">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSo3rlcn6pDjwK2UKsD1CVuBs7iWbRu4DncnEcI-960DZAdpkkr">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="3">
+               <img height="140px;" width= "140px;"src="http://www.vinisud-asia.com/sites/default/files/partner/vins-et-gastronomie_logo_vinisud-media-partner_140x140px.gif?1360290463">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="6" data-row="1">
+              <img  height="140px;" width= "140px;" src="/assets/family tree.jpg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="6" data-row="2">
+              <img height="300px;" width= "140px;" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQY5Q1C4n8LVpCRNstjgUxseeHgig5AbHkEe3TeN02oWJ_3Amg5Xg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="1" data-row="2" >
+             <img height="300px;" width= "140px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrCRKkROTFfu5dGmjy0xmgiI8bUD0sd6cyGL8Ht-d3-rPJD4_L">
+            </li>
+          </ul>
+          <ul style="height: 480px; position: relative;" padding-left: "20px;">
+          <li class = "gs_w" data-sizey="1" data-sizex="1" data-col="1" data-row="1" style="position: absoulte;  ">
+            <img height="140px;" width= "140px;"src="http://www.seeklogo.com/images/M/Muni_Seva_Ashram-logo-BE23446277-seeklogo.com.gif">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="2" data-col="2" data-row="1" style="position: absolute;">
+             
+                <img  height="140px;" width= "300px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqRiKOinGuG8AJLK4npcGs4T91oWm-812BHs0LMy9Xi-PBPBXQ">          
+              
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="2" data-col="2" data-row="2">
+                 <img height="300px;" width= "300px;"  src="http://new.kirkstall.org.uk/wp-content/uploads/2013/05/2679-FB-Kirkstall-BLS-ad-300x300px-080513-Hyperlink-Logo-1024x1024.jpg">
+
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRP6ko2h0RXDRvlzMsOyTOxhgVx7azJcVt9hmDctF9spAlGY6z7tg">
+            </li><li class="gs_w" data-sizey="1" data-sizex="2" data-col="4" data-row="2">
+            <img height="140px;" width= "300px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY-Lez_YfbopvAObjSqBzO6vtyuVOl9_yuGKzN0Uhz6GBJeNCo8Q">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="3">
+               <img height="140px;" width= "140px;"src="http://gi24.photobucket.com/groups/c49/S9SZK7BI1U/solid-icon140px-1.png">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSo3rlcn6pDjwK2UKsD1CVuBs7iWbRu4DncnEcI-960DZAdpkkr">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="3">
+               <img height="140px;" width= "140px;"src="http://www.vinisud-asia.com/sites/default/files/partner/vins-et-gastronomie_logo_vinisud-media-partner_140x140px.gif?1360290463">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="6" data-row="1">
+              <img  height="140px;" width= "140px;" src="/assets/family tree.jpg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="6" data-row="2">
+              <img height="300px;" width= "140px;" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQY5Q1C4n8LVpCRNstjgUxseeHgig5AbHkEe3TeN02oWJ_3Amg5Xg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="1" data-row="2" >
+             <img height="300px;" width= "140px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrCRKkROTFfu5dGmjy0xmgiI8bUD0sd6cyGL8Ht-d3-rPJD4_L">
+            </li>
+          </ul>
+          <ul style="height: 480px; position: relative;" padding-left: "20px;">
+          <li class = "gs_w" data-sizey="1" data-sizex="1" data-col="1" data-row="1" style="position: absoulte;  ">
+            <img height="140px;" width= "140px;"src="http://www.seeklogo.com/images/M/Muni_Seva_Ashram-logo-BE23446277-seeklogo.com.gif">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="2" data-col="2" data-row="1" style="position: absolute;">
+             
+                <img  height="140px;" width= "300px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqRiKOinGuG8AJLK4npcGs4T91oWm-812BHs0LMy9Xi-PBPBXQ">          
+              
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="2" data-col="2" data-row="2">
+                 <img height="300px;" width= "300px;"  src="http://new.kirkstall.org.uk/wp-content/uploads/2013/05/2679-FB-Kirkstall-BLS-ad-300x300px-080513-Hyperlink-Logo-1024x1024.jpg">
+
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRP6ko2h0RXDRvlzMsOyTOxhgVx7azJcVt9hmDctF9spAlGY6z7tg">
+            </li><li class="gs_w" data-sizey="1" data-sizex="2" data-col="4" data-row="2">
+            <img height="140px;" width= "300px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY-Lez_YfbopvAObjSqBzO6vtyuVOl9_yuGKzN0Uhz6GBJeNCo8Q">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="3">
+               <img height="140px;" width= "140px;"src="http://gi24.photobucket.com/groups/c49/S9SZK7BI1U/solid-icon140px-1.png">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSo3rlcn6pDjwK2UKsD1CVuBs7iWbRu4DncnEcI-960DZAdpkkr">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="3">
+               <img height="140px;" width= "140px;"src="http://www.vinisud-asia.com/sites/default/files/partner/vins-et-gastronomie_logo_vinisud-media-partner_140x140px.gif?1360290463">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="6" data-row="1">
+              <img  height="140px;" width= "140px;" src="/assets/family tree.jpg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="6" data-row="2">
+              <img height="300px;" width= "140px;" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQY5Q1C4n8LVpCRNstjgUxseeHgig5AbHkEe3TeN02oWJ_3Amg5Xg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="1" data-row="2" >
+             <img height="300px;" width= "140px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrCRKkROTFfu5dGmjy0xmgiI8bUD0sd6cyGL8Ht-d3-rPJD4_L">
+            </li>
+          </ul>
+          <ul style="height: 480px; position: relative;" padding-left: "20px;">
+          <li class = "gs_w" data-sizey="1" data-sizex="1" data-col="1" data-row="1" style="position: absoulte;  ">
+            <img height="140px;" width= "140px;"src="http://www.seeklogo.com/images/M/Muni_Seva_Ashram-logo-BE23446277-seeklogo.com.gif">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="2" data-col="2" data-row="1" style="position: absolute;">
+             
+                <img  height="140px;" width= "300px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqRiKOinGuG8AJLK4npcGs4T91oWm-812BHs0LMy9Xi-PBPBXQ">          
+              
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="2" data-col="2" data-row="2">
+                 <img height="300px;" width= "300px;"  src="http://new.kirkstall.org.uk/wp-content/uploads/2013/05/2679-FB-Kirkstall-BLS-ad-300x300px-080513-Hyperlink-Logo-1024x1024.jpg">
+
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRP6ko2h0RXDRvlzMsOyTOxhgVx7azJcVt9hmDctF9spAlGY6z7tg">
+            </li><li class="gs_w" data-sizey="1" data-sizex="2" data-col="4" data-row="2">
+            <img height="140px;" width= "300px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY-Lez_YfbopvAObjSqBzO6vtyuVOl9_yuGKzN0Uhz6GBJeNCo8Q">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="3">
+               <img height="140px;" width= "140px;"src="http://gi24.photobucket.com/groups/c49/S9SZK7BI1U/solid-icon140px-1.png">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSo3rlcn6pDjwK2UKsD1CVuBs7iWbRu4DncnEcI-960DZAdpkkr">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="3">
+               <img height="140px;" width= "140px;"src="http://www.vinisud-asia.com/sites/default/files/partner/vins-et-gastronomie_logo_vinisud-media-partner_140x140px.gif?1360290463">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="6" data-row="1">
+              <img  height="140px;" width= "140px;" src="/assets/family tree.jpg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="6" data-row="2">
+              <img height="300px;" width= "140px;" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQY5Q1C4n8LVpCRNstjgUxseeHgig5AbHkEe3TeN02oWJ_3Amg5Xg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="1" data-row="2" >
+             <img height="300px;" width= "140px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrCRKkROTFfu5dGmjy0xmgiI8bUD0sd6cyGL8Ht-d3-rPJD4_L">
+            </li>
+          </ul>
+          <ul style="height: 480px; position: relative;" padding-left: "20px;">
+          <li class = "gs_w" data-sizey="1" data-sizex="1" data-col="1" data-row="1" style="position: absoulte;  ">
+            <img height="140px;" width= "140px;"src="http://www.seeklogo.com/images/M/Muni_Seva_Ashram-logo-BE23446277-seeklogo.com.gif">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="2" data-col="2" data-row="1" style="position: absolute;">
+             
+                <img  height="140px;" width= "300px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqRiKOinGuG8AJLK4npcGs4T91oWm-812BHs0LMy9Xi-PBPBXQ">          
+              
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="2" data-col="2" data-row="2">
+                 <img height="300px;" width= "300px;"  src="http://new.kirkstall.org.uk/wp-content/uploads/2013/05/2679-FB-Kirkstall-BLS-ad-300x300px-080513-Hyperlink-Logo-1024x1024.jpg">
+
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRP6ko2h0RXDRvlzMsOyTOxhgVx7azJcVt9hmDctF9spAlGY6z7tg">
+            </li><li class="gs_w" data-sizey="1" data-sizex="2" data-col="4" data-row="2">
+            <img height="140px;" width= "300px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY-Lez_YfbopvAObjSqBzO6vtyuVOl9_yuGKzN0Uhz6GBJeNCo8Q">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="3">
+               <img height="140px;" width= "140px;"src="http://gi24.photobucket.com/groups/c49/S9SZK7BI1U/solid-icon140px-1.png">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSo3rlcn6pDjwK2UKsD1CVuBs7iWbRu4DncnEcI-960DZAdpkkr">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="3">
+               <img height="140px;" width= "140px;"src="http://www.vinisud-asia.com/sites/default/files/partner/vins-et-gastronomie_logo_vinisud-media-partner_140x140px.gif?1360290463">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="6" data-row="1">
+              <img  height="140px;" width= "140px;" src="/assets/family tree.jpg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="6" data-row="2">
+              <img height="300px;" width= "140px;" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQY5Q1C4n8LVpCRNstjgUxseeHgig5AbHkEe3TeN02oWJ_3Amg5Xg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="1" data-row="2" >
+             <img height="300px;" width= "140px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrCRKkROTFfu5dGmjy0xmgiI8bUD0sd6cyGL8Ht-d3-rPJD4_L">
+            </li>
+          </ul>
+          <ul style="height: 480px; position: relative;" padding-left: "20px;">
+          <li class = "gs_w" data-sizey="1" data-sizex="1" data-col="1" data-row="1" style="position: absoulte;  ">
+            <img height="140px;" width= "140px;"src="http://www.seeklogo.com/images/M/Muni_Seva_Ashram-logo-BE23446277-seeklogo.com.gif">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="2" data-col="2" data-row="1" style="position: absolute;">
+             
+                <img  height="140px;" width= "300px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqRiKOinGuG8AJLK4npcGs4T91oWm-812BHs0LMy9Xi-PBPBXQ">          
+              
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="2" data-col="2" data-row="2">
+                 <img height="300px;" width= "300px;"  src="http://new.kirkstall.org.uk/wp-content/uploads/2013/05/2679-FB-Kirkstall-BLS-ad-300x300px-080513-Hyperlink-Logo-1024x1024.jpg">
+
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRP6ko2h0RXDRvlzMsOyTOxhgVx7azJcVt9hmDctF9spAlGY6z7tg">
+            </li><li class="gs_w" data-sizey="1" data-sizex="2" data-col="4" data-row="2">
+            <img height="140px;" width= "300px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY-Lez_YfbopvAObjSqBzO6vtyuVOl9_yuGKzN0Uhz6GBJeNCo8Q">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="3">
+               <img height="140px;" width= "140px;"src="http://gi24.photobucket.com/groups/c49/S9SZK7BI1U/solid-icon140px-1.png">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSo3rlcn6pDjwK2UKsD1CVuBs7iWbRu4DncnEcI-960DZAdpkkr">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="3">
+               <img height="140px;" width= "140px;"src="http://www.vinisud-asia.com/sites/default/files/partner/vins-et-gastronomie_logo_vinisud-media-partner_140x140px.gif?1360290463">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="6" data-row="1">
+              <img  height="140px;" width= "140px;" src="/assets/family tree.jpg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="6" data-row="2">
+              <img height="300px;" width= "140px;" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQY5Q1C4n8LVpCRNstjgUxseeHgig5AbHkEe3TeN02oWJ_3Amg5Xg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="1" data-row="2" >
+             <img height="300px;" width= "140px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrCRKkROTFfu5dGmjy0xmgiI8bUD0sd6cyGL8Ht-d3-rPJD4_L">
+            </li>
+          </ul>
+          <ul style="height: 480px; position: relative;" padding-left: "20px;">
+          <li class = "gs_w" data-sizey="1" data-sizex="1" data-col="1" data-row="1" style="position: absoulte;  ">
+            <img height="140px;" width= "140px;"src="http://www.seeklogo.com/images/M/Muni_Seva_Ashram-logo-BE23446277-seeklogo.com.gif">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="2" data-col="2" data-row="1" style="position: absolute;">
+             
+                <img  height="140px;" width= "300px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqRiKOinGuG8AJLK4npcGs4T91oWm-812BHs0LMy9Xi-PBPBXQ">          
+              
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="2" data-col="2" data-row="2">
+                 <img height="300px;" width= "300px;"  src="http://new.kirkstall.org.uk/wp-content/uploads/2013/05/2679-FB-Kirkstall-BLS-ad-300x300px-080513-Hyperlink-Logo-1024x1024.jpg">
+
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRP6ko2h0RXDRvlzMsOyTOxhgVx7azJcVt9hmDctF9spAlGY6z7tg">
+            </li><li class="gs_w" data-sizey="1" data-sizex="2" data-col="4" data-row="2">
+            <img height="140px;" width= "300px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY-Lez_YfbopvAObjSqBzO6vtyuVOl9_yuGKzN0Uhz6GBJeNCo8Q">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="3">
+               <img height="140px;" width= "140px;"src="http://gi24.photobucket.com/groups/c49/S9SZK7BI1U/solid-icon140px-1.png">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSo3rlcn6pDjwK2UKsD1CVuBs7iWbRu4DncnEcI-960DZAdpkkr">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="3">
+               <img height="140px;" width= "140px;"src="http://www.vinisud-asia.com/sites/default/files/partner/vins-et-gastronomie_logo_vinisud-media-partner_140x140px.gif?1360290463">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="6" data-row="1">
+              <img  height="140px;" width= "140px;" src="/assets/family tree.jpg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="6" data-row="2">
+              <img height="300px;" width= "140px;" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQY5Q1C4n8LVpCRNstjgUxseeHgig5AbHkEe3TeN02oWJ_3Amg5Xg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="1" data-row="2" >
+             <img height="300px;" width= "140px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrCRKkROTFfu5dGmjy0xmgiI8bUD0sd6cyGL8Ht-d3-rPJD4_L">
+            </li>
+          </ul>
+          <ul style="height: 480px; position: relative;" padding-left: "20px;">
+          <li class = "gs_w" data-sizey="1" data-sizex="1" data-col="1" data-row="1" style="position: absoulte;  ">
+            <img height="140px;" width= "140px;"src="http://www.seeklogo.com/images/M/Muni_Seva_Ashram-logo-BE23446277-seeklogo.com.gif">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="2" data-col="2" data-row="1" style="position: absolute;">
+             
+                <img  height="140px;" width= "300px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTqRiKOinGuG8AJLK4npcGs4T91oWm-812BHs0LMy9Xi-PBPBXQ">          
+              
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="2" data-col="2" data-row="2">
+                 <img height="300px;" width= "300px;"  src="http://new.kirkstall.org.uk/wp-content/uploads/2013/05/2679-FB-Kirkstall-BLS-ad-300x300px-080513-Hyperlink-Logo-1024x1024.jpg">
+
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRP6ko2h0RXDRvlzMsOyTOxhgVx7azJcVt9hmDctF9spAlGY6z7tg">
+            </li><li class="gs_w" data-sizey="1" data-sizex="2" data-col="4" data-row="2">
+            <img height="140px;" width= "300px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY-Lez_YfbopvAObjSqBzO6vtyuVOl9_yuGKzN0Uhz6GBJeNCo8Q">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="4" data-row="3">
+               <img height="140px;" width= "140px;"src="http://gi24.photobucket.com/groups/c49/S9SZK7BI1U/solid-icon140px-1.png">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="1">
+               <img height="140px;" width= "140px;"src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSo3rlcn6pDjwK2UKsD1CVuBs7iWbRu4DncnEcI-960DZAdpkkr">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="5" data-row="3">
+               <img height="140px;" width= "140px;"src="http://www.vinisud-asia.com/sites/default/files/partner/vins-et-gastronomie_logo_vinisud-media-partner_140x140px.gif?1360290463">
+            </li>
+            <li class="gs_w" data-sizey="1" data-sizex="1" data-col="6" data-row="1">
+              <img  height="140px;" width= "140px;" src="/assets/family tree.jpg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="6" data-row="2">
+              <img height="300px;" width= "140px;" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQY5Q1C4n8LVpCRNstjgUxseeHgig5AbHkEe3TeN02oWJ_3Amg5Xg">
+            </li>
+            <li class="gs_w" data-sizey="2" data-sizex="1" data-col="1" data-row="2" >
+             <img height="300px;" width= "140px;" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSrCRKkROTFfu5dGmjy0xmgiI8bUD0sd6cyGL8Ht-d3-rPJD4_L">
+            </li>
+          </ul>
+         
+              </div>
+              </section>
+              <script src="assets/jquery.js" type="text/javascript"></script>
+              <script charster="utf-8" src="assets/jquery.gridster.js" type="text/javascript"></script>
+              <script type="text/javascript">
+                
+                var gridster;
+
+                $(function() {
+                  gridtster = $(".gridster > ul").gridster({
+                    widget_margins: [10, 10], 
+                    widget_base_dimensions: [140, 140],
+                    min_cols: 6
+                  }).data('gridster');
+                });
+              
+              </script>
+            </body>
+            </html>
+
+
+ <!--***************************************************************-->
+
