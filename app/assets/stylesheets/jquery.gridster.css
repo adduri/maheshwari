@@ -16,7 +16,7 @@
 }
 
 .gridster .gs_w{
-    z-in`x: 2;
+    z-index: 2;
     position: absolute;
 }
 
