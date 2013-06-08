@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
 
+gem 'therubyracer'
+gem 'execjs'
+
 
 group :production do
 #PostgreSql

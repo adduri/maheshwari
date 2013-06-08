@@ -197,6 +197,7 @@ DEPENDENCIES
   coffee-script
   country_select
   devise
+  execjs
   jquery-rails
   jquery-ui-rails
   less-rails
