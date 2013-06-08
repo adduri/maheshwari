@@ -20,7 +20,7 @@
 
 		<div class="span7">
 			<%= f.input :dob, as: :date, start_year: Date.today.year - 90 %>
-			<%= f.input :address , :class => 'ckeditor'%>
+		 	<%= f.input :address , :class => 'ckeditor'%> 
 			<%= f.input :city%>
 			<%= f.input :state ,collection: [:AndhraPradesh, :ArunachalPradesh, :Assam, :Bihar, :Chhattisgarh, :Goa, :Gujarat, :Haryana, :HimachalPradesh, :JammuandKashmir, :Jharkhand, :Karnataka, :Kerala, :MadhyaPradesh, :Maharashtra, :Manipur, :Meghalaya, :Mizoram, :Nagaland, :Punjab, :Rajasthan, :Sikkim, :TamilNadu, :Tripura, :UttarPradesh, :Uttarakhand, :WestBengal, :AndamanandNicobarIslands, :Chandigarh, :DadraandNagarHaveli, :Lakshadweep,  :Puducherry, :NewDelhi]%>
 			<%= f.input :country ,priority: [ "India" ]%>
