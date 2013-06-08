@@ -28,6 +28,8 @@ h3 {
     margin: 3em 0;
     padding: 7.5em 0 5.5em;
     background-image:url('');
+    background-size:80px 60px;
+
  box-shadow:2px 2px 10px 10px #555451;
  -webkit-box-shadow:2px 2px 10px 10px #555451;
  -moz-box-shadow:2px 2px 10px 10px #555451;
