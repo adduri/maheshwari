@@ -8,8 +8,8 @@
 	  <div class="row">
 	    <div class="span5">
 			<%= f.input :email, :required => true, :autofocus => true %>
-			<%= f.input :password, :required => true %>
-			<%= f.input :password_confirmation, :required => true %>
+			<% f.input :password, :required => true %>
+			<% f.input :password_confirmation, :required => true %>
 			<%= f.input :firstname%>    
 			<%= f.input :middlename%>
 			<%= f.input :lastname%>
@@ -25,7 +25,7 @@
 			<%= f.input :state ,collection: [:AndhraPradesh, :ArunachalPradesh, :Assam, :Bihar, :Chhattisgarh, :Goa, :Gujarat, :Haryana, :HimachalPradesh, :JammuandKashmir, :Jharkhand, :Karnataka, :Kerala, :MadhyaPradesh, :Maharashtra, :Manipur, :Meghalaya, :Mizoram, :Nagaland, :Punjab, :Rajasthan, :Sikkim, :TamilNadu, :Tripura, :UttarPradesh, :Uttarakhand, :WestBengal, :AndamanandNicobarIslands, :Chandigarh, :DadraandNagarHaveli, :Lakshadweep,  :Puducherry, :NewDelhi]%>
 			<%= f.input :country ,priority: [ "India" ]%>
 
-			<%= f.input :family_count%>
+			<% f.input :family_count%>
 		</div>
 
 

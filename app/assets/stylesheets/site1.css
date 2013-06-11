@@ -45,9 +45,7 @@ position:absolute;
  font-family: "lucida grande", sans-serif;
 }
 
-#topContact a{
-    display:block; float:left; margin-right:20px; color: #558ED5;
-}
+
 
 .phone{background:url('/assets/phone_ico.png') no-repeat 42px 5px;
 height:33px; line-height:38px; margin-right:20px; padding-left:77px; text-decoration:none;
@@ -125,14 +123,14 @@ font-family: "lucida grande", sans-serif;
   margin-left:370px;
   background-color: green;
 }
-
+/*
 #bottom_strip{background:#000; height:20px; width: 100%;}
 #bottom_strip .inner_wrap div{position:absolute; right:0px;}
 #bottom_strip .inner_wrap div a{ float:right; color:#fff; line-height:32px; display:block; margin-left:25px; text-decoration:none;
 font-size:13px;
 }
 #bottom_strip .inner_wrap span{position:absolute; left:0px; font-size:13px; color:#fff; line-height:32px;}
-.inner_wrap{width:985px; margin: 0px auto; position:relative !important;}
+.inner_wrap{width:985px; margin: 0px auto; position:relative !important;}*/
 #content{
   width:985px; 
   margin: 0px auto;

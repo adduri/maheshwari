@@ -11,6 +11,7 @@
       position:absolute;
       bottom:0;
       left:0;
+      margin: 0;
      }
 
     </style>
@@ -55,13 +56,15 @@
   position: relative;
   min-height: 100%;
 }
-#content {
+#content {  
   padding-bottom: 30px;
 }
 #footer .navbar{
   position: absolute;
  }
-#footer {background-color:#f3f3f3}
+#footer {background-color:#f3f3f3;
+padding-bottom: 2px;
+}
 
 
 #bottom_strip{background:#fff; height:31px; width: 100%; }
@@ -70,21 +73,23 @@
 font-size:13px;
 }
 #bottom_strip .inner_wrap span{position:absolute; left:0px; font-size:13px; color:#000000; line-height:30px; }
-.inner_wrap{width:1535px; margin: 0px auto; position:relative !important;padding-top: 8px;}
+.inner_wrap{width:1200px; margin: 0px auto; position:relative !important;padding-top: 8px;}
  
 #slider{color:#000000;}
+
+ a:hover{ background-color: #f7f7f7}
       </style>
     </head>
     <body>        
-<div class="row">
+<div class="row"> 
 
   <div class="navbar-inner">
     <div class="container">
-      <div id="s" style="padding-left:790px">
+      <div id="s" style="padding-left:790px; padding-bottom:15px;padding-top:10px;">
    
 
- <button class="btn btn-info" onclick="window.location.href='/users/sign_up'"> Registartion</button>&nbsp; &nbsp; 
-       <button class="btn btn-info" onclick="window.location.href='/sessions/new'">LogIn</button>
+ <button class="btn btn-danger" onclick="window.location.href='/users/sign_up'"> Registration</button>&nbsp; &nbsp; 
+       <button class="btn btn-danger" onclick="window.location.href='/users/sign_in'">Log&nbsp;In</button>
 
 
      </div>
@@ -110,7 +115,7 @@ font-size:13px;
           </div><!--input-prepend--></ul>
 </div><!--container nav-collapse-->
   
-     
+     <p class="phone" style="float: right; padding-left:-50px;"> +91 90300 27648/649</p>
       <a href="mailto:maheshwari.jagruth@gmail.com" class="contact" style="float: right; padding-left:-50px;">maheshwari.jagruth@gmail.com</a>
  
       
@@ -128,9 +133,10 @@ font-size:13px;
   <!-- <li><a href="/advertisements">Partners &nbsp;&nbsp;</a></li> 
   <li><a href="/registration">Registration &nbsp;&nbsp;</a></li>  -->
 
-  <li class="dropdown">
-    <a class="dropdown-toggle" data-toggle="dropdown" href="#">States<b class="caret"></b></a>
-        <ul class="dropdown-menu">
+   <li class="dropdown">
+    <a class="dropdown-toggle"data-toggle="dropdown"href="#">States<b class="caret"></b></a>
+    
+         <ul class="dropdown-menu">
           <table class="table table-hover" cellpadding="10">
             <tr>
               <td>
@@ -223,7 +229,7 @@ font-size:13px;
 </div> <!-- /container --> 
    
 <div class="container">
-  <div class="row">
+ 
     <div class="span12">
       <%= yield %>
     </div><!--span12-->
@@ -268,9 +274,9 @@ webiste :-
 ERW MS Pipes, GI Pipes,Seamless Tubes, Boiler Tubes, Square & Rectagular Hollow Sections and
         Large Dia Pipes<br>
 
- Website: &nbsp;<a href="http://www.salasarindia.com/"target =_blank>www.salasarindia.com</a>&nbsp;
+ Website: &nbsp;<a href="http://www.salasarindia.com/"target =_blank style="color:#006fcc">www.salasarindia.com</a>&nbsp;
  Mail Id: 
- <a href="mailto:info@salasarindia.com"> info@salasarindia.com&nbsp;</a> <!--class="contact"-->
+ <a href="mailto:info@salasarindia.com" style="color:#006fcc"> info@salasarindia.com&nbsp;</a> <!--class="contact"-->
  Contact: +91 90 300 27631 (TO) 635
 
 
@@ -278,16 +284,16 @@ ERW MS Pipes, GI Pipes,Seamless Tubes, Boiler Tubes, Square & Rectagular Hollow 
 
   </div><!--span6-->
  
-    <div class="span2" style="padding-top:24px;padding-left:273px"> 
+    <div class="span3"> 
 <a href="http://www.salasarindia.com/" target =_blank> 
-    <img border="4" src="/assets/salasar.jpg" /> </a>
+    <img src="/assets/salasar.jpg" /> </a>
     </div><!--span3-->
-    
+  
 
 </div><!--row--><!--bottom strip start-->
  <div id="bottom_strip">
   <div class="inner_wrap">
-    <span>@ MJ. All rights reserved</span>
+    <span>&copy MJ. All rights reserved</span>
     <div>
       <a href="#">Terms and Conditions</a>
       <a style="color:#8B1001;">|</a>
