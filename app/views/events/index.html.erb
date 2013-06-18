@@ -10,6 +10,8 @@
     <th></th>
   </tr>
 
+
+
 <% @events.each do |event| %>
   <tr>
     <td><%= event.title %></td>
@@ -22,6 +24,6 @@
 <% end %>
 </table>
 
-<br />
+<br>
 
 <%= link_to 'New Event', new_event_path %>

@@ -1,6 +1,9 @@
-<%= simple_form_for(@relation) do |f| %>
-  <%= f.error_notification %>
 
+
+<!--
+<%= simple_form_for(@relation) do |f| %>
+  <%= f.error_notification %>   -->
+<!-- 
   <div class="form-inputs">
     <%= f.input :relationship %>
     <%= f.input :priority %>
@@ -8,5 +11,30 @@
 
   <div class="form-actions">
     <%= f.button :submit %>
+  </div>
+<% end %> -->
+<%= form_for(@relation) do |f| %>
+  <% if @relation.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@relation.errors.count, "error") %> prohibited this relation from being saved:</h2>
+
+      <ul>
+      <% @relation.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :relationship %><br />
+    <%= f.text_field :relationship %>
+  </div>
+  <div class="field">
+    <%= f.label :priority %><br />
+    <%= f.text_field :priority %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
   </div>
 <% end %>

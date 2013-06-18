@@ -17,6 +17,14 @@ before_filter :authenticate_advertiser!, :except => [:index, :show]
   # GET /advertisements/1
   # GET /advertisements/1.json
   def show
+@sai = Advertisement.find(params[:id])
+ 
+ respond_to do |sai|
+format.html
+format.json {render json: @sai}
+end
+
+
     @advertisement = Advertisement.find(params[:id])
 
     respond_to do |format|
@@ -28,6 +36,14 @@ before_filter :authenticate_advertiser!, :except => [:index, :show]
   # GET /advertisements/new
   # GET /advertisements/new.json
   def new
+
+@sai = Advertisement.new
+
+respond_to do |sai|
+format.html
+format.json { render json: @sai}
+end
+
     @advertisement = Advertisement.new
 
     respond_to do |format|

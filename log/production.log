@@ -6400,3 +6400,249 @@ Started GET "/assets/s/4.jpg" for 127.0.0.1 at 2013-06-08 15:38:54 +0530
 Served asset /s/4.jpg - 200 OK (0ms)
 Started GET "/assets/mj_favicon.png" for 127.0.0.1 at 2013-06-08 15:38:54 +0530
 Served asset /mj_favicon.png - 200 OK (0ms)
+Connecting to database specified by database.yml
+Started GET "/" for 127.0.0.1 at 2013-06-13 10:07:53 +0530
+Processing by AdvertisementsController#index as HTML
+  Rendered advertisements/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 224ms (Views: 171.9ms | ActiveRecord: 49.7ms)
+Started GET "/assets/application-2f6f1cd60d30e74bee3c501661337e7d.css" for 127.0.0.1 at 2013-06-13 10:07:54 +0530
+Error compiling asset application.css:
+Less::ParseError: 'twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/kishan/mjlatest1/app/assets/stylesheets/bootstrap_and_overrides.css.less)
+Served asset /application-2f6f1cd60d30e74bee3c501661337e7d.css - 500 Internal Server Error
+
+
+Started GET "/assets/mj_favicon.png" for 127.0.0.1 at 2013-06-13 10:07:54 +0530
+Served asset /mj_favicon.png - 200 OK (44ms)
+Started GET "/assets/css/jquery.gridster.css" for 127.0.0.1 at 2013-06-13 10:07:54 +0530
+Served asset /css/jquery.gridster.css - 404 Not Found (48ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/css/jquery.gridster.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/kishan/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/kishan/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/kishan/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/css/styles.css" for 127.0.0.1 at 2013-06-13 10:07:54 +0530
+Served asset /css/styles.css - 404 Not Found (8ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/css/styles.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/kishan/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/kishan/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/kishan/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/beta.png" for 127.0.0.1 at 2013-06-13 10:07:54 +0530
+Served asset /beta.png - 200 OK (69ms)
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-13 10:07:54 +0530
+Served asset /logo.png - 200 OK (21ms)
+Started GET "/assets/d.png" for 127.0.0.1 at 2013-06-13 10:07:54 +0530
+Served asset /d.png - 200 OK (13ms)
+Started GET "/assets/flyhigh.jpg" for 127.0.0.1 at 2013-06-13 10:07:54 +0530
+Served asset /flyhigh.jpg - 200 OK (37ms)
+Started GET "/assets/insu.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /insu.jpg - 200 OK (35ms)
+Started GET "/assets/vidya.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /vidya.jpg - 200 OK (22ms)
+Started GET "/assets/mb.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mb.jpg - 200 OK (18ms)
+Started GET "/assets/mjflyhigh.png" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mjflyhigh.png - 200 OK (37ms)
+Started GET "/assets/news.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /news.jpg - 200 OK (25ms)
+Started GET "/assets/mjvidyapeeth.png" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mjvidyapeeth.png - 200 OK (5ms)
+Started GET "/assets/mat.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mat.jpg - 200 OK (48ms)
+Started GET "/assets/family%20tree.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /family%20tree.jpg - 200 OK (73ms)
+Started GET "/assets/mjinfo.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mjinfo.jpg - 200 OK (30ms)
+Started GET "/assets/mjinfo1.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mjinfo1.jpg - 200 OK (12ms)
+Started GET "/assets/mjen.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mjen.jpg - 200 OK (35ms)
+Started GET "/assets/mjfin.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mjfin.jpg - 200 OK (19ms)
+Started GET "/assets/mjash.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mjash.jpg - 200 OK (39ms)
+Started GET "/assets/mjseva.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mjseva.jpg - 200 OK (33ms)
+Started GET "/assets/mjheal1.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mjheal1.jpg - 200 OK (10ms)
+Started GET "/assets/mjclub.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mjclub.jpg - 200 OK (14ms)
+Started GET "/assets/mjft.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mjft.jpg - 200 OK (24ms)
+Started GET "/assets/mjshp.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mjshp.jpg - 200 OK (16ms)
+Started GET "/assets/mjbh.jpg" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Served asset /mjbh.jpg - 200 OK (19ms)
+Started GET "/assets/jquery.js" for 127.0.0.1 at 2013-06-13 10:07:55 +0530
+Compiled jquery.js  (1ms)  (pid 2860)
+Served asset /jquery.js - 200 OK (1643ms)
+Started GET "/assets/jquery.gridster.js" for 127.0.0.1 at 2013-06-13 10:07:57 +0530
+Compiled jquery.gridster.js  (2ms)  (pid 2860)
+Served asset /jquery.gridster.js - 200 OK (383ms)
+Started GET "/assets/s/5.jpg" for 127.0.0.1 at 2013-06-13 10:07:57 +0530
+Served asset /s/5.jpg - 200 OK (46ms)
+Started GET "/assets/s/1.jpg" for 127.0.0.1 at 2013-06-13 10:07:57 +0530
+Served asset /s/1.jpg - 200 OK (17ms)
+Started GET "/assets/s/2.jpg" for 127.0.0.1 at 2013-06-13 10:07:57 +0530
+Served asset /s/2.jpg - 200 OK (18ms)
+Started GET "/assets/s/3.jpg" for 127.0.0.1 at 2013-06-13 10:07:57 +0530
+Served asset /s/3.jpg - 200 OK (15ms)
+Started GET "/assets/s/4.jpg" for 127.0.0.1 at 2013-06-13 10:07:57 +0530
+Served asset /s/4.jpg - 200 OK (4ms)
+Started GET "/assets/application-7fda088eedb99f36f097d1efca6b2a80.js" for 127.0.0.1 at 2013-06-13 10:07:57 +0530
+Error compiling asset application.js:
+Sprockets::FileNotFound: couldn't find file 'twitter/bootstrap'
+  (in /home/kishan/mjlatest1/app/assets/javascripts/application.js:17)
+Served asset /application-7fda088eedb99f36f097d1efca6b2a80.js - 500 Internal Server Error
+
+
+Started GET "/assets/s/1.jpg" for 127.0.0.1 at 2013-06-13 10:07:57 +0530
+Served asset /s/1.jpg - 200 OK (0ms)
+Started GET "/" for 127.0.0.1 at 2013-06-13 10:07:58 +0530
+Processing by AdvertisementsController#index as HTML
+  Rendered advertisements/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 1.0ms)
+Started GET "/assets/salasar.jpg" for 127.0.0.1 at 2013-06-13 10:07:58 +0530
+Served asset /salasar.jpg - 200 OK (10ms)
+Started GET "/assets/s/5.jpg" for 127.0.0.1 at 2013-06-13 10:07:58 +0530
+Served asset /s/5.jpg - 200 OK (0ms)
+Started GET "/assets/s/2.jpg" for 127.0.0.1 at 2013-06-13 10:07:58 +0530
+Served asset /s/2.jpg - 200 OK (0ms)
+Started GET "/assets/s/4.jpg" for 127.0.0.1 at 2013-06-13 10:07:58 +0530
+Served asset /s/4.jpg - 200 OK (0ms)
+Started GET "/assets/s/3.jpg" for 127.0.0.1 at 2013-06-13 10:07:58 +0530
+Served asset /s/3.jpg - 200 OK (0ms)
+Started GET "/assets/salasar.jpg" for 127.0.0.1 at 2013-06-13 10:07:58 +0530
+Served asset /salasar.jpg - 200 OK (0ms)
+Started GET "/assets/application-7fda088eedb99f36f097d1efca6b2a80.js" for 127.0.0.1 at 2013-06-13 10:07:58 +0530
+Error compiling asset application.js:
+Sprockets::FileNotFound: couldn't find file 'twitter/bootstrap'
+  (in /home/kishan/mjlatest1/app/assets/javascripts/application.js:17)
+Served asset /application-7fda088eedb99f36f097d1efca6b2a80.js - 500 Internal Server Error
+
+
+Started GET "/assets/application-2f6f1cd60d30e74bee3c501661337e7d.css" for 127.0.0.1 at 2013-06-13 10:07:58 +0530
+Error compiling asset application.css:
+Less::ParseError: 'twitter/bootstrap/bootstrap.less' wasn't found.
+
+  (in /home/kishan/mjlatest1/app/assets/stylesheets/bootstrap_and_overrides.css.less)
+Served asset /application-2f6f1cd60d30e74bee3c501661337e7d.css - 500 Internal Server Error
+
+
+Started GET "/assets/css/jquery.gridster.css" for 127.0.0.1 at 2013-06-13 10:07:58 +0530
+Served asset /css/jquery.gridster.css - 404 Not Found (5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/css/jquery.gridster.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/kishan/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/kishan/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/kishan/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/css/styles.css" for 127.0.0.1 at 2013-06-13 10:07:58 +0530
+Served asset /css/styles.css - 404 Not Found (3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/css/styles.css"):
+  actionpack (3.2.11) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.11) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.11) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.11) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.11) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.11) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  rack-cache (1.2) lib/rack/cache/context.rb:136:in `forward'
+  rack-cache (1.2) lib/rack/cache/context.rb:245:in `fetch'
+  rack-cache (1.2) lib/rack/cache/context.rb:185:in `lookup'
+  rack-cache (1.2) lib/rack/cache/context.rb:66:in `call!'
+  rack-cache (1.2) lib/rack/cache/context.rb:51:in `call'
+  railties (3.2.11) lib/rails/engine.rb:479:in `call'
+  railties (3.2.11) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.11) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/kishan/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/kishan/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/kishan/.rvm/rubies/ruby-1.9.3-p392/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+Started GET "/assets/jquery.gridster.js" for 127.0.0.1 at 2013-06-13 10:07:58 +0530
+Served asset /jquery.gridster.js - 200 OK (0ms)
+Started GET "/assets/application-7fda088eedb99f36f097d1efca6b2a80.js" for 127.0.0.1 at 2013-06-13 10:07:58 +0530
+Error compiling asset application.js:
+Sprockets::FileNotFound: couldn't find file 'twitter/bootstrap'
+  (in /home/kishan/mjlatest1/app/assets/javascripts/application.js:17)
+Served asset /application-7fda088eedb99f36f097d1efca6b2a80.js - 500 Internal Server Error
+
+

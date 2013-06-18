@@ -1,21 +1,26 @@
-<h1>Listing relations</h1>
+<div id="content_links">
+  <a href="/users?begin=15">Users</a>
+  <a href="/family_members">Family members</a>
+  <a href="/relations">Relations</a>
+  <a href="/feedbacks">View Feedbacks</a>
+  <a href="/publish_event">Publish Event</a>
+</div>
+<h2>Relations</h2>
 
 <table>
   <tr>
+    <th>Id</th>
     <th>Relationship</th>
     <th>Priority</th>
-    <th></th>
-    <th></th>
     <th></th>
   </tr>
 
 <% @relations.each do |relation| %>
   <tr>
+    <td><%= relation.id %></td>
     <td><%= relation.relationship %></td>
     <td><%= relation.priority %></td>
-    <td><%= link_to 'Show', relation %></td>
     <td><%= link_to 'Edit', edit_relation_path(relation) %></td>
-    <td><%= link_to 'Destroy', relation, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>
 </table>
